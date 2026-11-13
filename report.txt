@@ -1,0 +1,175 @@
+# TELECOM CUSTOMER CHURN ANALYSIS
+### Data Analytics Project Report
+
+**Project Title:** Telecom Customer Churn Analysis  
+**Domain:** Telecommunications  
+**Tools Used:** Python, Pandas, NumPy, Matplotlib, Seaborn, Excel  
+**Project Type:** Exploratory Data Analysis (EDA)
+
+---
+
+## 1. Introduction
+
+Customer churn refers to the number of customers who stop using a company's products or services within a specific period.
+
+In the telecommunications industry, retaining existing customers is important for business growth and profitability.
+
+This project focuses on analyzing telecom customer data to identify the major factors influencing customer churn and provide business recommendations to reduce customer loss.
+
+## 2. Problem Statement
+
+The telecom company is experiencing customer loss. The company wants to understand why customers are leaving and identify customer groups that have a higher possibility of leaving.
+
+The main objective is to analyze customer information, service usage, contract details, and monthly charges to identify churn patterns.
+
+## 3. Project Objectives
+
+- Analyze customer churn patterns.
+- Identify customer groups with higher churn rates.
+- Understand the impact of internet services on churn.
+- Analyze the relationship between monthly charges and churn.
+- Identify the impact of payment methods and billing preferences.
+- Provide business recommendations to improve customer retention.
+
+## 4. Dataset Description
+
+The dataset contains customer information and service-related details.
+
+Important columns include:
+
+| Column | Description |
+|---|---|
+| customerID | Unique customer identification |
+| gender | Customer gender |
+| SeniorCitizen | Senior citizen status |
+| Partner | Whether customer has a partner |
+| Dependents | Whether customer has dependents |
+| tenure | Number of months with company |
+| InternetService | Type of internet service |
+| OnlineSecurity | Online security subscription |
+| TechSupport | Technical support subscription |
+| Contract | Contract type |
+| PaperlessBilling | Paperless billing status |
+| PaymentMethod | Customer payment method |
+| MonthlyCharges | Monthly service charges |
+| TotalCharges | Total amount charged |
+| Churn | Whether customer left the company |
+
+## 5. Data Cleaning and Preprocessing
+
+The following preprocessing activities were performed:
+
+1. Checked the dataset shape.
+2. Checked column names and data types.
+3. Identified missing values.
+4. Checked duplicate records.
+5. Converted TotalCharges into a numeric data type.
+6. Handled missing and inconsistent values.
+7. Prepared the dataset for exploratory data analysis.
+
+## 6. Exploratory Data Analysis (EDA)
+
+EDA was performed to understand customer behavior and identify patterns associated with customer churn.
+
+### 6.1 Overall Customer Churn
+
+The churn distribution was analyzed to understand how many customers stayed with the company and how many customers left.
+
+**Business Insight:** The company should focus on understanding the reasons behind customer loss and develop strategies to improve customer retention.
+
+### 6.2 Internet Service Analysis
+
+The analysis compares churn across different internet service categories, including Fiber Optic, DSL, and No Internet.
+
+**Observation:** Fiber Optic customers appear to have a higher churn rate in the analyzed graph.
+
+**Business Recommendation:**
+- Improve internet speed and connection stability.
+- Provide better technical support.
+- Offer suitable customer retention packages.
+- Collect feedback from Fiber Optic customers.
+
+### 6.3 Paperless Billing Analysis
+
+The relationship between paperless billing and customer churn was analyzed.
+
+**Observation:** Paperless billing customers show a higher churn level in the analyzed graph.
+
+**Business Recommendation:**
+- Improve the online billing experience.
+- Provide clear billing statements.
+- Send payment reminders and notifications.
+- Resolve billing-related complaints quickly.
+
+### 6.4 Monthly Charges Analysis
+
+Monthly charges were analyzed to identify whether customers paying higher amounts are more likely to leave.
+
+**Observation:** Customers with monthly charges above $80 appear to be an important group to investigate for higher churn.
+
+**Business Recommendation:**
+- Provide special discounts.
+- Introduce affordable monthly packages.
+- Offer additional benefits.
+- Provide loyalty rewards for long-term customers.
+
+### 6.5 Contract Analysis
+
+Customer churn was compared across month-to-month, one-year, and two-year contracts.
+
+**Business Recommendation:** Encourage customers to consider longer-term plans by providing suitable benefits and competitive pricing.
+
+### 6.6 Technical Support Analysis
+
+The relationship between technical support subscriptions and customer churn was examined.
+
+**Business Recommendation:** Improve customer support services and make technical assistance easily accessible.
+
+## 7. Key Business Insights
+
+Based on the EDA observations, the following areas require attention:
+
+1. **Fiber Optic:** Improve internet quality and technical support.
+2. **Paperless Billing:** Improve the digital billing experience.
+3. **High Monthly Charges:** Provide suitable discounts and affordable plans.
+4. **Contract Type:** Encourage long-term customer relationships.
+5. **Technical Support:** Resolve customer complaints quickly.
+
+*Note: These are example findings based on the observed patterns. Actual churn percentages should be calculated before confirming each conclusion.*
+
+## 8. Business Recommendations
+
+The telecom company can reduce customer churn through the following strategies:
+
+- Introduce customer-specific retention offers.
+- Improve internet service quality.
+- Provide better customer support.
+- Offer affordable subscription plans.
+- Improve digital payment and billing services.
+- Collect customer feedback regularly.
+- Identify customers with a high risk of leaving and contact them proactively.
+
+## 9. Conclusion
+
+The Telecom Customer Churn Analysis project helps identify customer behavior and factors associated with customer loss.
+
+Exploratory Data Analysis provides useful insights into internet services, billing preferences, monthly charges, and contract types.
+
+By improving service quality, providing suitable offers, and understanding customer requirements, the telecom company can improve customer satisfaction and reduce customer churn.
+
+## 10. Future Scope
+
+- Develop a machine learning model to predict customer churn.
+- Identify customers at high risk of leaving.
+- Build an interactive Power BI dashboard.
+- Develop customer retention strategies based on predictive analytics.
+
+---
+
+**Submitted By:** ____________________
+
+**Course:** ____________________
+
+**Institution:** ____________________
+
+**Date:** ____________________
