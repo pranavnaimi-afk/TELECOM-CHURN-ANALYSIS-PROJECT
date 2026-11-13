@@ -172,6 +172,9 @@ This project demonstrates how Data Analytics and Machine Learning can help telec
 **Domain:** Data Analytics & Machine Learning
 
 ---
+<img width="986" height="612" alt="Screenshot 2026-11-12 124032" src="https://github.com/user-attachments/assets/7379709a-49d9-42fe-a348-5dcb0ba55977" />
+
+
 
  If you find this project useful, consider giving the repository a star!
 
